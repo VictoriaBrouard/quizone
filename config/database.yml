@@ -51,6 +51,7 @@ test:
   pool: 5
   username: postgres
   password: password
+  host: localhost
 
 production:
   adapter: postgresql
@@ -59,4 +60,4 @@ production:
   pool: 5
   username: postgres
   password: password
-  password: password
+  host: localhost
