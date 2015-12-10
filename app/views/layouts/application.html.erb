@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quizone</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="col-xs-12 header" >   
+		Welcome to the Quizone app!
+	</div>
+	<div class="col-xs-12 blurb" >
+		Proudly built with the help of theFirehoseProject
+	</div>
+<%= yield %>
+
+</body>
+</html>
